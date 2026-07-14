@@ -13,7 +13,7 @@ export default function Home() {
   const [query, setQuery] = useState("");
 
   return (
-    <div className="flex min-h-screen flex-col bg-background bg-grain">
+    <div className="flex min-h-screen flex-col bg-background bg-spice">
       <Header />
       <main className="flex-1">
         <Hero />

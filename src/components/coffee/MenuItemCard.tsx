@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useCart } from "@/lib/cart-store";
 import type { MenuItem } from "@/lib/menu-data";
+import { formatPrice } from "@/lib/menu-data";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -24,7 +25,7 @@ export function MenuItemCard({ item }: Props) {
     setJustAdded(true);
     toast({
       title: "Added to cart",
-      description: `${item.name} — $${item.price.toFixed(2)}`,
+      description: `${item.name} — ${formatPrice(item.price)}`,
     });
     window.setTimeout(() => setJustAdded(false), 1200);
   };
@@ -62,7 +63,7 @@ export function MenuItemCard({ item }: Props) {
             {item.name}
           </h3>
           <span className="shrink-0 font-serif text-lg font-semibold text-primary">
-            ${item.price.toFixed(2)}
+            {formatPrice(item.price)}
           </span>
         </div>
 

@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "black tea in clear glass cup hot",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/a1c799912c0c.jpg",
+      "caption": "",
+      "source": "BIK Concepts",
+      "original_width": "1100px",
+      "original_height": "1463px"
+    }
+  ]
+}

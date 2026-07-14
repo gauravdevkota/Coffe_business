@@ -13,10 +13,11 @@ import {
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { useCart, selectSubtotal } from "@/lib/cart-store";
+import { formatPrice } from "@/lib/menu-data";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
-const TAX_RATE = 0.0875;
+const TAX_RATE = 0.13; // Nepal VAT 13%
 
 export function CartSheet() {
   const { lines, isOpen, setOpen, increment, decrement, remove, clear } =
@@ -34,7 +35,7 @@ export function CartSheet() {
       setCheckingOut(false);
       toast({
         title: "Order placed!",
-        description: `Your total of $${total.toFixed(2)} has been received. See you soon.`,
+        description: `Your total of ${formatPrice(Math.round(total))} has been received. See you soon.`,
       });
       clear();
       setOpen(false);
@@ -122,7 +123,7 @@ export function CartSheet() {
                         </button>
                       </div>
                       <p className="text-sm text-muted-foreground">
-                        ${line.price.toFixed(2)} each
+                        {formatPrice(line.price)} each
                       </p>
                       <div className="mt-auto flex items-center justify-between pt-2">
                         <div className="flex items-center gap-1 rounded-full border border-border bg-background p-1">
@@ -147,7 +148,7 @@ export function CartSheet() {
                           </button>
                         </div>
                         <span className="font-serif text-base font-semibold text-primary">
-                          ${(line.price * line.qty).toFixed(2)}
+                          {formatPrice(line.price * line.qty)}
                         </span>
                       </div>
                     </div>
@@ -168,16 +169,16 @@ export function CartSheet() {
               <div className="flex flex-col gap-2 text-sm">
                 <div className="flex justify-between text-muted-foreground">
                   <span>Subtotal</span>
-                  <span className="tabular-nums">${subtotal.toFixed(2)}</span>
+                  <span className="tabular-nums">{formatPrice(Math.round(subtotal))}</span>
                 </div>
                 <div className="flex justify-between text-muted-foreground">
-                  <span>Tax (8.75%)</span>
-                  <span className="tabular-nums">${tax.toFixed(2)}</span>
+                  <span>VAT (13%)</span>
+                  <span className="tabular-nums">{formatPrice(Math.round(tax))}</span>
                 </div>
                 <Separator className="my-1" />
                 <div className="flex justify-between font-serif text-lg font-semibold text-foreground">
                   <span>Total</span>
-                  <span className="tabular-nums">${total.toFixed(2)}</span>
+                  <span className="tabular-nums">{formatPrice(Math.round(total))}</span>
                 </div>
               </div>
               <Button
@@ -188,7 +189,7 @@ export function CartSheet() {
                 {checkingOut ? "Placing order..." : "Place Order"}
               </Button>
               <p className="mt-2 text-center text-xs text-muted-foreground">
-                Free in-store pickup · Ready in ~8 minutes
+                Free in-store pickup · Ready in ~10 minutes · Cash &amp; eSewa accepted
               </p>
             </SheetFooter>
           </>

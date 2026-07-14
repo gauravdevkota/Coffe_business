@@ -1,11 +1,11 @@
 "use client";
 
-import { Coffee, Clock, MapPin, Phone, Instagram, Twitter, Facebook } from "lucide-react";
+import { Coffee, Clock, MapPin, Phone, Instagram, Facebook, MessageCircle } from "lucide-react";
+import Image from "next/image";
 
 const hours = [
-  { day: "Monday – Friday", time: "6:30 AM – 8:00 PM" },
-  { day: "Saturday", time: "7:00 AM – 9:00 PM" },
-  { day: "Sunday", time: "7:00 AM – 6:00 PM" },
+  { day: "Sunday – Friday", time: "6:30 AM – 8:00 PM" },
+  { day: "Saturday", time: "7:30 AM – 9:00 PM" },
 ];
 
 export function Footer() {
@@ -19,25 +19,28 @@ export function Footer() {
               Our Story
             </p>
             <h2 className="mt-2 font-serif text-4xl font-semibold tracking-tight sm:text-5xl">
-              From green bean to your cup
+              A cozy cup in Sunrise Height
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-primary-foreground/85">
-              Bean &amp; Brew started in 2014 as a single roaster in a converted
-              garage. Today we roast every bean in-house, source directly from
-              twelve farms across four continents, and bake all our pastries
-              each morning before the doors open.
+              Chiya Holics started as a tiny corner stall serving masala chiya
+              to early-morning walkers in Raniban. Today we&apos;re a cozy
+              neighborhood café serving authentic Nepali chiya, freshly brewed
+              highland coffee, momos, and breakfast plates to a regular crowd
+              of regulars.
             </p>
             <p className="mt-4 text-primary-foreground/70">
-              We believe a great cup of coffee should be approachable,
-              traceable, and consistent — and that the room you drink it in
-              should feel like home.
+              Every cup is brewed fresh, every momo is hand-folded, and every
+              order comes with a smile. Come find us up on the hill — the view
+              of the valley is on the house.
             </p>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
-            <img
-              src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1200&q=80"
-              alt="Inside the Bean & Brew coffee shop"
-              className="h-full w-full object-cover"
+            <Image
+              src="/images/cafe/chiya-holics-exterior.jpg"
+              alt="Chiya Holics café storefront in Sunrise Height, Raniban, Kathmandu"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover"
             />
           </div>
         </div>
@@ -63,6 +66,9 @@ export function Footer() {
               </li>
             ))}
           </ul>
+          <p className="mt-4 text-xs text-primary-foreground/60">
+            Open all year round, including public holidays.
+          </p>
         </div>
 
         <div id="visit">
@@ -73,18 +79,27 @@ export function Footer() {
             </span>
           </div>
           <address className="mt-4 not-italic text-sm leading-relaxed text-primary-foreground/85">
-            142 Maple Avenue
+            Sunrise Height, Raniban
             <br />
-            Brookside District
+            Nagarjun Municipality
             <br />
-            Portland, OR 97201
+            Kathmandu, Bagmati, Nepal
           </address>
           <a
-            href="tel:+15035551234"
-            className="mt-3 inline-flex items-center gap-2 text-sm text-primary-foreground/85 transition-colors hover:text-accent"
+            href="https://www.google.com/maps/place/Chiya+Holics/@27.733976,85.2832764,17z"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-flex items-center gap-2 text-sm text-accent transition-colors hover:text-primary-foreground"
+          >
+            <MapPin className="h-4 w-4" />
+            Open in Google Maps
+          </a>
+          <a
+            href="tel:+97714000000"
+            className="mt-2 flex items-center gap-2 text-sm text-primary-foreground/85 transition-colors hover:text-accent"
           >
             <Phone className="h-4 w-4" />
-            (503) 555-1234
+            +977-1-4000000
           </a>
         </div>
 
@@ -92,12 +107,12 @@ export function Footer() {
           <div className="flex items-center gap-2 text-accent">
             <Coffee className="h-5 w-5" />
             <span className="text-xs font-semibold uppercase tracking-[0.2em]">
-              Bean &amp; Brew
+              Chiya Holics
             </span>
           </div>
           <p className="mt-4 text-sm leading-relaxed text-primary-foreground/85">
-            Sign up for our newsletter to hear about new seasonal roasts and
-            limited pastries.
+            Get updates on new seasonal chiya blends, special momo days, and
+            offers straight to your inbox.
           </p>
           <form
             className="mt-4 flex gap-2"
@@ -118,9 +133,9 @@ export function Footer() {
           </form>
           <div className="mt-6 flex gap-3">
             {[
-              { Icon: Instagram, label: "Instagram" },
-              { Icon: Twitter, label: "Twitter" },
               { Icon: Facebook, label: "Facebook" },
+              { Icon: Instagram, label: "Instagram" },
+              { Icon: MessageCircle, label: "WhatsApp" },
             ].map(({ Icon, label }) => (
               <a
                 key={label}
@@ -137,8 +152,8 @@ export function Footer() {
 
       <div className="border-t border-primary-foreground/15">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-4 py-6 text-xs text-primary-foreground/60 sm:flex-row sm:px-6">
-          <p>© {new Date().getFullYear()} Bean &amp; Brew Coffee House. All rights reserved.</p>
-          <p>Crafted with care, one cup at a time.</p>
+          <p>© {new Date().getFullYear()} Chiya Holics. All rights reserved.</p>
+          <p>Made with chiya &amp; coffee in Kathmandu.</p>
         </div>
       </div>
     </footer>

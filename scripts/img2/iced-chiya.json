@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "iced milk tea glass cold drink",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/863d04610847.jpg",
+      "caption": "",
+      "source": "Tea Drops",
+      "original_width": "1200px",
+      "original_height": "800px"
+    }
+  ]
+}

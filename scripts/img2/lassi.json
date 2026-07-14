@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "mango lassi yogurt drink in glass",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/4ea30af7790a.jpg",
+      "caption": "",
+      "source": "Blend with Spices",
+      "original_width": "1280px",
+      "original_height": "960px"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "mocha coffee chocolate drink cup",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/81c3b7122df4.jpg",
+      "caption": "",
+      "source": "Vibrantly G-Free",
+      "original_width": "1199px",
+      "original_height": "1800px"
+    }
+  ]
+}

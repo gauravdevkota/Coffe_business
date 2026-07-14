@@ -46,86 +46,86 @@
 :root {
   --radius: 0.75rem;
 
-  /* Bean & Brew warm coffee palette */
-  --background: oklch(0.985 0.012 75);          /* warm cream */
-  --foreground: oklch(0.28 0.03 50);           /* deep espresso */
-  --card: oklch(1 0.008 75);                    /* paper white */
-  --card-foreground: oklch(0.28 0.03 50);
-  --popover: oklch(1 0.008 75);
-  --popover-foreground: oklch(0.28 0.03 50);
+  /* Chiya Holics — Himalayan spice palette */
+  --background: oklch(0.985 0.012 70);           /* warm cream */
+  --foreground: oklch(0.26 0.04 35);            /* deep maroon-espresso */
+  --card: oklch(1 0.008 70);                     /* paper white */
+  --card-foreground: oklch(0.26 0.04 35);
+  --popover: oklch(1 0.008 70);
+  --popover-foreground: oklch(0.26 0.04 35);
 
-  --primary: oklch(0.42 0.06 50);              /* espresso brown */
-  --primary-foreground: oklch(0.985 0.012 75);
+  --primary: oklch(0.36 0.13 28);              /* deep terracotta-maroon */
+  --primary-foreground: oklch(0.985 0.012 70);
 
-  --secondary: oklch(0.93 0.02 70);            /* latte foam */
-  --secondary-foreground: oklch(0.32 0.04 50);
+  --secondary: oklch(0.93 0.025 65);            /* cardamom cream */
+  --secondary-foreground: oklch(0.32 0.05 35);
 
-  --muted: oklch(0.94 0.015 70);
-  --muted-foreground: oklch(0.52 0.03 55);
+  --muted: oklch(0.94 0.018 65);
+  --muted-foreground: oklch(0.5 0.035 45);
 
-  --accent: oklch(0.72 0.14 60);               /* caramel amber */
-  --accent-foreground: oklch(0.25 0.04 50);
+  --accent: oklch(0.74 0.15 75);               /* turmeric gold */
+  --accent-foreground: oklch(0.25 0.05 35);
 
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.9 0.02 70);
-  --input: oklch(0.9 0.02 70);
-  --ring: oklch(0.6 0.1 55);
+  --border: oklch(0.9 0.025 60);
+  --input: oklch(0.9 0.025 60);
+  --ring: oklch(0.6 0.12 45);
 
-  --chart-1: oklch(0.55 0.08 45);
-  --chart-2: oklch(0.7 0.13 60);
-  --chart-3: oklch(0.6 0.05 50);
+  --chart-1: oklch(0.55 0.13 30);
+  --chart-2: oklch(0.74 0.15 75);
+  --chart-3: oklch(0.6 0.08 45);
   --chart-4: oklch(0.78 0.1 70);
-  --chart-5: oklch(0.45 0.1 40);
+  --chart-5: oklch(0.45 0.13 25);
 
-  --sidebar: oklch(0.97 0.012 70);
-  --sidebar-foreground: oklch(0.28 0.03 50);
-  --sidebar-primary: oklch(0.42 0.06 50);
-  --sidebar-primary-foreground: oklch(0.985 0.012 75);
-  --sidebar-accent: oklch(0.93 0.02 70);
-  --sidebar-accent-foreground: oklch(0.32 0.04 50);
-  --sidebar-border: oklch(0.9 0.02 70);
-  --sidebar-ring: oklch(0.6 0.1 55);
+  --sidebar: oklch(0.97 0.015 60);
+  --sidebar-foreground: oklch(0.26 0.04 35);
+  --sidebar-primary: oklch(0.36 0.13 28);
+  --sidebar-primary-foreground: oklch(0.985 0.012 70);
+  --sidebar-accent: oklch(0.93 0.025 65);
+  --sidebar-accent-foreground: oklch(0.32 0.05 35);
+  --sidebar-border: oklch(0.9 0.025 60);
+  --sidebar-ring: oklch(0.6 0.12 45);
 }
 
 .dark {
-  --background: oklch(0.18 0.02 50);
-  --foreground: oklch(0.95 0.012 75);
-  --card: oklch(0.22 0.025 50);
-  --card-foreground: oklch(0.95 0.012 75);
-  --popover: oklch(0.22 0.025 50);
-  --popover-foreground: oklch(0.95 0.012 75);
+  --background: oklch(0.17 0.025 35);
+  --foreground: oklch(0.95 0.015 70);
+  --card: oklch(0.21 0.03 35);
+  --card-foreground: oklch(0.95 0.015 70);
+  --popover: oklch(0.21 0.03 35);
+  --popover-foreground: oklch(0.95 0.015 70);
 
-  --primary: oklch(0.78 0.1 70);
-  --primary-foreground: oklch(0.2 0.03 50);
+  --primary: oklch(0.74 0.15 75);
+  --primary-foreground: oklch(0.2 0.04 35);
 
-  --secondary: oklch(0.28 0.03 50);
-  --secondary-foreground: oklch(0.95 0.012 75);
+  --secondary: oklch(0.27 0.04 35);
+  --secondary-foreground: oklch(0.95 0.015 70);
 
-  --muted: oklch(0.26 0.025 50);
-  --muted-foreground: oklch(0.7 0.02 60);
+  --muted: oklch(0.25 0.03 35);
+  --muted-foreground: oklch(0.7 0.025 60);
 
-  --accent: oklch(0.72 0.14 60);
-  --accent-foreground: oklch(0.2 0.03 50);
+  --accent: oklch(0.74 0.15 75);
+  --accent-foreground: oklch(0.2 0.04 35);
 
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 12%);
   --input: oklch(1 0 0 / 14%);
-  --ring: oklch(0.72 0.14 60);
+  --ring: oklch(0.74 0.15 75);
 
-  --chart-1: oklch(0.65 0.1 45);
-  --chart-2: oklch(0.78 0.12 60);
-  --chart-3: oklch(0.6 0.06 50);
+  --chart-1: oklch(0.65 0.13 30);
+  --chart-2: oklch(0.78 0.13 75);
+  --chart-3: oklch(0.6 0.08 45);
   --chart-4: oklch(0.8 0.1 70);
-  --chart-5: oklch(0.55 0.12 40);
+  --chart-5: oklch(0.55 0.13 25);
 
-  --sidebar: oklch(0.22 0.025 50);
-  --sidebar-foreground: oklch(0.95 0.012 75);
-  --sidebar-primary: oklch(0.78 0.1 70);
-  --sidebar-primary-foreground: oklch(0.2 0.03 50);
-  --sidebar-accent: oklch(0.28 0.03 50);
-  --sidebar-accent-foreground: oklch(0.95 0.012 75);
+  --sidebar: oklch(0.21 0.03 35);
+  --sidebar-foreground: oklch(0.95 0.015 70);
+  --sidebar-primary: oklch(0.74 0.15 75);
+  --sidebar-primary-foreground: oklch(0.2 0.04 35);
+  --sidebar-accent: oklch(0.27 0.04 35);
+  --sidebar-accent-foreground: oklch(0.95 0.015 70);
   --sidebar-border: oklch(1 0 0 / 12%);
-  --sidebar-ring: oklch(0.72 0.14 60);
+  --sidebar-ring: oklch(0.74 0.15 75);
 }
 
 @layer base {
@@ -144,13 +144,22 @@
 
 .bg-grain {
   background-image: radial-gradient(
-    rgba(120, 80, 40, 0.06) 1px,
+    rgba(140, 60, 30, 0.06) 1px,
     transparent 1px
   );
   background-size: 18px 18px;
 }
 
-/* Subtle steam animation for hero */
+/* Himalayan spice pattern - subtle mandala dots */
+.bg-spice {
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(180, 90, 30, 0.05) 0, transparent 30%),
+    radial-gradient(circle at 80% 70%, rgba(140, 50, 30, 0.05) 0, transparent 30%),
+    radial-gradient(rgba(140, 60, 30, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 22px 22px;
+}
+
+/* Steam animation for hero */
 @keyframes steam {
   0% { transform: translateY(0) scale(1); opacity: 0; }
   20% { opacity: 0.6; }

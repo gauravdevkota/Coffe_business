@@ -21,10 +21,10 @@ export function Header() {
           </span>
           <span className="flex flex-col leading-none">
             <span className="font-serif text-lg font-semibold tracking-tight text-foreground">
-              Bean &amp; Brew
+              Chiya Holics
             </span>
             <span className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
-              Coffee House
+              Chiya &amp; Coffee Café
             </span>
           </span>
         </a>

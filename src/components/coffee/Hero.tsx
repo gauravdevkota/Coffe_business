@@ -1,6 +1,7 @@
 "use client";
 
 import { ArrowDown, Star } from "lucide-react";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -8,34 +9,37 @@ export function Hero() {
       id="top"
       className="relative isolate overflow-hidden bg-primary text-primary-foreground"
     >
-      {/* Background image */}
-      <div
-        className="absolute inset-0 -z-10 bg-cover bg-center opacity-30"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=2000&q=80')",
-        }}
-        aria-hidden
-      />
+      {/* Background image — the actual Chiya Holics cafe exterior from Google Maps */}
+      <div className="absolute inset-0 -z-10">
+        <Image
+          src="/images/cafe/chiya-holics-exterior.jpg"
+          alt="Chiya Holics café storefront in Raniban, Kathmandu"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover opacity-35"
+        />
+      </div>
       {/* Gradient overlay */}
       <div
-        className="absolute inset-0 -z-10 bg-gradient-to-b from-primary/85 via-primary/70 to-primary"
+        className="absolute inset-0 -z-10 bg-gradient-to-b from-primary/85 via-primary/75 to-primary"
         aria-hidden
       />
 
       <div className="mx-auto flex max-w-6xl flex-col items-center px-4 py-24 text-center sm:px-6 sm:py-32">
         <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary-foreground/25 bg-primary-foreground/10 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-primary-foreground/90 backdrop-blur">
           <Star className="h-3.5 w-3.5 fill-accent text-accent" />
-          Roasted in-house since 2014
+          Sunrise Height · Raniban · Kathmandu
         </span>
 
         <h1 className="font-serif text-5xl font-semibold leading-[1.05] tracking-tight sm:text-6xl md:text-7xl">
-          Bean &amp; Brew
+          Chiya Holics
         </h1>
 
         <p className="mt-6 max-w-2xl text-balance text-lg text-primary-foreground/85 sm:text-xl">
-          A neighborhood coffee house serving single-origin espresso,
-          slow-steeped cold brew, and pastries baked fresh every morning.
+          A cozy little café in Raniban serving authentic Nepali masala chiya,
+          freshly brewed highland coffee, momos, and breakfast — every day
+          from sunrise.
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row">
@@ -58,21 +62,21 @@ export function Hero() {
         <dl className="mt-16 grid w-full max-w-3xl grid-cols-3 gap-4 border-t border-primary-foreground/20 pt-8 text-center">
           <div>
             <dt className="text-xs uppercase tracking-[0.18em] text-primary-foreground/60">
-              Origins
+              Chiya Varieties
             </dt>
-            <dd className="mt-1 font-serif text-2xl font-semibold">12</dd>
+            <dd className="mt-1 font-serif text-2xl font-semibold">6+</dd>
           </div>
           <div className="border-x border-primary-foreground/20">
             <dt className="text-xs uppercase tracking-[0.18em] text-primary-foreground/60">
-              Drinks
+              Menu Items
             </dt>
-            <dd className="mt-1 font-serif text-2xl font-semibold">40+</dd>
+            <dd className="mt-1 font-serif text-2xl font-semibold">25+</dd>
           </div>
           <div>
             <dt className="text-xs uppercase tracking-[0.18em] text-primary-foreground/60">
-              Years Brewing
+              Open Daily
             </dt>
-            <dd className="mt-1 font-serif text-2xl font-semibold">11</dd>
+            <dd className="mt-1 font-serif text-2xl font-semibold">6:30 AM</dd>
           </div>
         </dl>
       </div>

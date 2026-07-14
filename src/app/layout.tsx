@@ -16,35 +16,36 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Bean & Brew — Artisan Coffee House",
+  title: "Chiya Holics — Cozy Chiya & Coffee Café in Raniban, Kathmandu",
   description:
-    "Bean & Brew is a neighborhood coffee house serving single-origin espresso, slow-steeped cold brew, loose-leaf teas, and pastries baked fresh every morning. Browse the menu and build your order.",
+    "Chiya Holics is a cozy café in Sunrise Height, Raniban, Kathmandu serving authentic Nepali masala chiya, freshly brewed coffee, momos, sekuwa, and breakfast. Browse the menu and build your order.",
   keywords: [
-    "coffee shop",
-    "cafe menu",
-    "espresso",
-    "cold brew",
-    "matcha latte",
-    "pastries",
-    "breakfast",
-    "Bean & Brew",
+    "Chiya Holics",
+    "chiya cafe Kathmandu",
+    "Nepali tea",
+    "masala chiya",
+    "coffee Kathmandu",
+    "Raniban cafe",
+    "momo Kathmandu",
+    "sekuwa",
+    "Nepal cafe",
   ],
-  authors: [{ name: "Bean & Brew" }],
+  authors: [{ name: "Chiya Holics" }],
   icons: {
-    icon: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=64&q=80",
+    icon: "/images/cafe/chiya-holics-exterior.jpg",
   },
   openGraph: {
-    title: "Bean & Brew — Artisan Coffee House",
+    title: "Chiya Holics — Cozy Chiya & Coffee Café",
     description:
-      "Single-origin espresso, slow-steeped cold brew, and pastries baked in-house.",
-    siteName: "Bean & Brew",
+      "Authentic Nepali masala chiya, freshly brewed coffee, and momos in Sunrise Height, Raniban, Kathmandu.",
+    siteName: "Chiya Holics",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bean & Brew — Artisan Coffee House",
+    title: "Chiya Holics — Cozy Chiya & Coffee Café",
     description:
-      "Single-origin espresso, slow-steeped cold brew, and pastries baked in-house.",
+      "Authentic Nepali masala chiya, freshly brewed coffee, and momos in Raniban, Kathmandu.",
   },
 };
 
