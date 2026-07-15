@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "Nepali chhoila grilled meat with beaten rice",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/05b883f59307.jpg",
+      "caption": "",
+      "source": "Ethnojunkie",
+      "original_width": "1080px",
+      "original_height": "809px"
+    }
+  ]
+}

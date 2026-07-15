@@ -60,10 +60,10 @@ export function MenuItemCard({ item }: Props) {
 
       <div className="flex flex-1 flex-col p-5">
         <div className="flex items-start justify-between gap-3">
-          <h3 className="font-serif text-lg font-semibold leading-snug text-espresso">
+          <h3 className="font-serif text-lg font-semibold leading-snug text-foreground">
             {item.name}
           </h3>
-          <span className="shrink-0 font-serif text-lg font-semibold text-terracotta">
+          <span className="shrink-0 font-serif text-lg font-semibold text-primary">
             {formatPrice(item.price)}
           </span>
         </div>
@@ -94,7 +94,7 @@ export function MenuItemCard({ item }: Props) {
           <Button
             onClick={handleAdd}
             size="sm"
-            className="ml-auto rounded-full border border-espresso bg-transparent px-5 text-espresso transition-all hover:bg-espresso hover:text-cream"
+            className="ml-auto rounded-full border border-foreground bg-transparent px-5 text-foreground transition-all hover:bg-foreground hover:text-background"
           >
             {justAdded ? (
               <>

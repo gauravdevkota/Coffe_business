@@ -52,7 +52,7 @@ export function HeritageSection() {
           >
             <span className="h-px w-12 bg-gold" />
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gold-light">
-              03 — Our Craft
+              04 — Our Craft
             </span>
           </motion.div>
           <motion.h2

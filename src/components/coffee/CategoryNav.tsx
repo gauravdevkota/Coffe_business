@@ -21,7 +21,7 @@ export function CategoryNav({ active, setActive, query, setQuery }: Props) {
   );
 
   return (
-    <div className="sticky top-16 z-30 -mx-6 mb-12 border-y border-border/60 bg-cream/90 px-6 py-4 backdrop-blur-md sm:-mx-8 lg:-mx-12 lg:px-12">
+    <div className="sticky top-16 z-30 -mx-6 mb-12 border-y border-border/60 bg-background/90 px-6 py-4 backdrop-blur-md sm:-mx-8 lg:-mx-12 lg:px-12">
       <div className="mx-auto flex max-w-7xl flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
         <div
           className="flex flex-1 gap-2 overflow-x-auto pb-1 lg:pb-0"
@@ -38,8 +38,8 @@ export function CategoryNav({ active, setActive, query, setQuery }: Props) {
               className={cn(
                 "shrink-0 rounded-full px-5 py-2 text-sm font-medium tracking-wide transition-all",
                 active === p.id
-                  ? "bg-espresso text-cream hover:bg-espresso/90"
-                  : "border-border bg-transparent text-espresso hover:border-gold hover:bg-gold/10 hover:text-espresso"
+                  ? "bg-foreground text-background hover:bg-foreground/90"
+                  : "border-border bg-transparent text-foreground hover:border-gold hover:bg-gold/10 hover:text-foreground"
               )}
             >
               {p.label}

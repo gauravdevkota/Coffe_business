@@ -73,12 +73,12 @@ export function CartSheet() {
         </SheetHeader>
 
         {lines.length === 0 ? (
-          <div className="flex flex-1 flex-col items-center justify-center gap-4 bg-cream px-6 py-16 text-center">
+          <div className="flex flex-1 flex-col items-center justify-center gap-4 bg-background px-6 py-16 text-center">
             <div className="flex h-16 w-16 items-center justify-center rounded-full bg-secondary text-muted-foreground">
               <ShoppingBag className="h-7 w-7" />
             </div>
             <div>
-              <p className="font-serif text-lg font-semibold text-espresso">
+              <p className="font-serif text-lg font-semibold text-foreground">
                 Nothing brewing yet
               </p>
               <p className="mt-1 text-sm text-muted-foreground">
@@ -87,7 +87,7 @@ export function CartSheet() {
             </div>
             <Button
               variant="outline"
-              className="mt-2 rounded-full border-espresso text-espresso hover:bg-espresso hover:text-cream"
+              className="mt-2 rounded-full border-foreground text-foreground hover:bg-foreground hover:text-background"
               onClick={() => setOpen(false)}
             >
               Browse the menu
@@ -95,7 +95,7 @@ export function CartSheet() {
           </div>
         ) : (
           <>
-            <div className="flex-1 overflow-y-auto bg-cream px-6 py-5">
+            <div className="flex-1 overflow-y-auto bg-background px-6 py-5">
               <ul className="flex flex-col gap-3">
                 {lines.map((line) => (
                   <li
@@ -113,7 +113,7 @@ export function CartSheet() {
                     </div>
                     <div className="flex flex-1 flex-col">
                       <div className="flex items-start justify-between gap-2">
-                        <p className="font-serif text-sm font-semibold leading-tight text-espresso">
+                        <p className="font-serif text-sm font-semibold leading-tight text-foreground">
                           {line.name}
                         </p>
                         <button
@@ -133,7 +133,7 @@ export function CartSheet() {
                           <button
                             type="button"
                             onClick={() => decrement(line.id)}
-                            className="flex h-7 w-7 items-center justify-center rounded-full text-espresso transition-colors hover:bg-secondary"
+                            className="flex h-7 w-7 items-center justify-center rounded-full text-foreground transition-colors hover:bg-secondary"
                             aria-label={`Decrease ${line.name} quantity`}
                           >
                             <Minus className="h-3.5 w-3.5" />
@@ -144,7 +144,7 @@ export function CartSheet() {
                           <button
                             type="button"
                             onClick={() => increment(line.id)}
-                            className="flex h-7 w-7 items-center justify-center rounded-full text-espresso transition-colors hover:bg-secondary"
+                            className="flex h-7 w-7 items-center justify-center rounded-full text-foreground transition-colors hover:bg-secondary"
                             aria-label={`Increase ${line.name} quantity`}
                           >
                             <Plus className="h-3.5 w-3.5" />
@@ -162,7 +162,7 @@ export function CartSheet() {
               <button
                 type="button"
                 onClick={clear}
-                className="mt-4 text-xs font-medium uppercase tracking-wide text-muted-foreground underline-offset-4 hover:text-espresso hover:underline"
+                className="mt-4 text-xs font-medium uppercase tracking-wide text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
               >
                 Clear cart
               </button>
@@ -183,9 +183,9 @@ export function CartSheet() {
                   </span>
                 </div>
                 <Separator className="my-1" />
-                <div className="flex justify-between font-serif text-lg font-semibold text-espresso">
+                <div className="flex justify-between font-serif text-lg font-semibold text-foreground">
                   <span>Total</span>
-                  <span className="tabular-nums text-terracotta">
+                  <span className="tabular-nums text-primary">
                     {formatPrice(Math.round(total))}
                   </span>
                 </div>

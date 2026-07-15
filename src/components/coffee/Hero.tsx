@@ -20,6 +20,8 @@ export function Hero() {
           sizes="100vw"
           className="object-cover opacity-50"
         />
+        {/* Cinematic mesh gradient overlay */}
+        <div className="absolute inset-0 bg-mesh-animated opacity-60" aria-hidden />
         {/* Gradient overlays for cinematic depth */}
         <div
           className="absolute inset-0 bg-gradient-to-t from-espresso via-espresso/70 to-espresso/30"

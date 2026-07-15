@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useCart, selectCount } from "@/lib/cart-store";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function Header() {
   const setOpen = useCart((s) => s.setOpen);
@@ -75,6 +76,7 @@ export function Header() {
         >
           {[
             { href: "#menu", label: "Menu" },
+            { href: "#breakfast", label: "Breakfast" },
             { href: "#craft", label: "Our Craft" },
             { href: "#reviews", label: "Reviews" },
             { href: "#visit", label: "Visit" },
@@ -89,24 +91,27 @@ export function Header() {
           ))}
         </nav>
 
-        <Button
-          onClick={() => setOpen(true)}
-          className={cn(
-            "group relative rounded-full px-5 py-2.5 text-sm font-medium tracking-wide transition-all duration-500",
-            scrolled
-              ? "bg-primary text-primary-foreground hover:bg-primary/90"
-              : "bg-cream text-espresso hover:bg-cream/90"
-          )}
-          aria-label="Open cart"
-        >
-          <ShoppingBag className="mr-2 h-4 w-4" />
-          <span className="hidden sm:inline">Cart</span>
-          {mounted && count > 0 && (
-            <span className="ml-2 inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-gold px-1.5 text-xs font-bold text-espresso">
-              {count}
-            </span>
-          )}
-        </Button>
+        <div className="flex items-center gap-2">
+          <ThemeToggle overDark={!scrolled} />
+          <Button
+            onClick={() => setOpen(true)}
+            className={cn(
+              "group relative rounded-full px-5 py-2.5 text-sm font-medium tracking-wide transition-all duration-500",
+              scrolled
+                ? "bg-primary text-primary-foreground hover:bg-primary/90"
+                : "bg-cream text-espresso hover:bg-cream/90"
+            )}
+            aria-label="Open cart"
+          >
+            <ShoppingBag className="mr-2 h-4 w-4" />
+            <span className="hidden sm:inline">Cart</span>
+            {mounted && count > 0 && (
+              <span className="ml-2 inline-flex h-5 min-w-5 items-center justify-center rounded-full bg-gold px-1.5 text-xs font-bold text-espresso">
+                {count}
+              </span>
+            )}
+          </Button>
+        </div>
       </div>
     </header>
   );

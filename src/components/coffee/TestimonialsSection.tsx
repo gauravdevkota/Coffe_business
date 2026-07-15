@@ -31,7 +31,7 @@ export function TestimonialsSection() {
   return (
     <section
       id="reviews"
-      className="relative overflow-hidden bg-cream py-24 sm:py-32"
+      className="relative overflow-hidden bg-background py-24 sm:py-32"
     >
       <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
         {/* Header */}
@@ -45,7 +45,7 @@ export function TestimonialsSection() {
           >
             <span className="h-px w-8 bg-gold-dark" />
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gold-dark">
-              04 — Reviews
+              05 — Reviews
             </span>
             <span className="h-px w-8 bg-gold-dark" />
           </motion.div>
@@ -54,7 +54,7 @@ export function TestimonialsSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="font-serif text-4xl font-semibold tracking-tight text-espresso sm:text-5xl md:text-6xl"
+            className="font-serif text-4xl font-semibold tracking-tight text-foreground sm:text-5xl md:text-6xl"
           >
             What our regulars{" "}
             <span className="font-accent italic font-light text-terracotta">
@@ -99,7 +99,7 @@ export function TestimonialsSection() {
                   />
                 ))}
               </div>
-              <blockquote className="flex-1 font-accent text-lg italic leading-relaxed text-espresso">
+              <blockquote className="flex-1 font-accent text-lg italic leading-relaxed text-foreground">
                 &ldquo;{t.quote}&rdquo;
               </blockquote>
               <figcaption className="mt-6 flex items-center gap-3 border-t border-border/60 pt-5">
@@ -107,7 +107,7 @@ export function TestimonialsSection() {
                   {t.name.charAt(0)}
                 </div>
                 <div>
-                  <p className="font-serif font-semibold text-espresso">
+                  <p className="font-serif font-semibold text-foreground">
                     {t.name}
                   </p>
                   <p className="text-xs text-muted-foreground">

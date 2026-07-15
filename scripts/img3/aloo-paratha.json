@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "aloo paratha stuffed flatbread with butter",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/081c60ffd3c5.jpg",
+      "caption": "",
+      "source": "BBC",
+      "original_width": "1600px",
+      "original_height": "900px"
+    }
+  ]
+}

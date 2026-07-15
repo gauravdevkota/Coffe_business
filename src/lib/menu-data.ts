@@ -379,4 +379,116 @@ export const menuItems: MenuItem[] = [
     tags: ["Healthy", "Yogurt"],
     calories: 350,
   },
+  {
+    id: "chhoila",
+    name: "Chhoila & Chiura",
+    description:
+      "Newari-style grilled chicken tossed with mustard oil, ginger, garlic, and roasted spices. Served with flattened beaten rice.",
+    price: 280,
+    category: "breakfast",
+    image:
+      "https://sfile.chatglm.cn/images-ppt/05b883f59307.jpg",
+    tags: ["Newari", "Spicy", "Signature"],
+    popular: true,
+    calories: 450,
+  },
+  {
+    id: "dhido",
+    name: "Dhido with Gundruk",
+    description:
+      "Traditional Nepali buckwheat porridge cooked slow and steady. Paired with fermented gundruk soup and achar.",
+    price: 220,
+    category: "breakfast",
+    image:
+      "https://sfile.chatglm.cn/images-ppt/4cbf50f9a7dc.jpg",
+    tags: ["Traditional", "Buckwheat"],
+    calories: 410,
+  },
+  {
+    id: "puri-tarkari",
+    name: "Puri Tarkari",
+    description:
+      "Two freshly fried puffy puris served with aloo-tama curry and a side of tomato-garlic chutney.",
+    price: 180,
+    category: "breakfast",
+    image:
+      "https://sfile.chatglm.cn/images-ppt/6a5cd3e0b94d.jpg",
+    tags: ["Fried", "Classic"],
+    calories: 480,
+  },
+  {
+    id: "aloo-paratha",
+    name: "Aloo Paratha",
+    description:
+      "Whole wheat flatbread stuffed with spiced potato, pan-cooked in ghee. With curd and pickle.",
+    price: 200,
+    category: "breakfast",
+    image:
+      "https://sfile.chatglm.cn/images-ppt/081c60ffd3c5.jpg",
+    tags: ["Stuffed", "Vegetarian"],
+    popular: true,
+    calories: 420,
+  },
+  {
+    id: "masala-omelette",
+    name: "Masala Omelette & Toast",
+    description:
+      "Three-egg omelette folded with onion, tomato, green chili, and coriander. Served with butter toast.",
+    price: 160,
+    category: "breakfast",
+    image:
+      "https://sfile.chatglm.cn/images-ppt/07752bebbb5d.jpg",
+    tags: ["Eggs", "Spicy"],
+    calories: 360,
+  },
+  {
+    id: "french-toast",
+    name: "Cinnamon French Toast",
+    description:
+      "Brioche soaked in vanilla-cinnamon custard, pan-fried golden. With maple syrup and fresh berries.",
+    price: 240,
+    category: "breakfast",
+    image:
+      "https://sfile.chatglm.cn/images-ppt/459591f7691f.jpg",
+    tags: ["Sweet", "Cafe Favorite"],
+    popular: true,
+    calories: 410,
+  },
+  {
+    id: "eggs-benedict",
+    name: "Eggs Benedict",
+    description:
+      "Toasted English muffin, sautéed spinach, poached egg, and silky hollandaise. With a side of hash browns.",
+    price: 320,
+    category: "breakfast",
+    image:
+      "https://sfile.chatglm.cn/images-ppt/5ad6c278e87d.jpg",
+    tags: ["Premium", "Eggs"],
+    calories: 480,
+  },
+  {
+    id: "poha",
+    name: "Poha",
+    description:
+      "Light flattened-rice dish tempered with mustard seeds, curry leaves, peanut, and a squeeze of lemon.",
+    price: 140,
+    category: "breakfast",
+    image:
+      "https://sfile.chatglm.cn/images-ppt/2e114b45d5ea.jpg",
+    tags: ["Light", "Vegetarian"],
+    calories: 280,
+  },
+  {
+    id: "nepali-thali",
+    name: "Nepali Breakfast Thali",
+    description:
+      "Steamed rice, dal, seasonal tarkari, curd, pickle, and papad. The full traditional Nepali breakfast platter.",
+    price: 300,
+    category: "breakfast",
+    image:
+      "https://sfile.chatglm.cn/images-ppt/1da8ed16c556.jpg",
+    tags: ["Platter", "Traditional", "Hearty"],
+    popular: true,
+    calories: 620,
+  },
 ];

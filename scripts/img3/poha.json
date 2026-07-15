@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "Indian poha flattened rice with peanuts",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/2e114b45d5ea.jpg",
+      "caption": "",
+      "source": "Indian As Apple Pie",
+      "original_width": "1193px",
+      "original_height": "1193px"
+    }
+  ]
+}

@@ -17,7 +17,7 @@ export function FeaturedSection() {
   const { toast } = useToast();
 
   return (
-    <section className="relative overflow-hidden bg-cream py-24 sm:py-32">
+    <section className="relative overflow-hidden bg-background py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
         {/* Section header */}
         <div className="mb-16 flex flex-col items-end justify-between gap-6 md:flex-row md:items-end">
@@ -39,7 +39,7 @@ export function FeaturedSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="font-serif text-4xl font-semibold leading-tight tracking-tight text-espresso sm:text-5xl md:text-6xl"
+              className="font-serif text-4xl font-semibold leading-tight tracking-tight text-foreground sm:text-5xl md:text-6xl"
             >
               The cups that
               <br />
@@ -113,7 +113,7 @@ export function FeaturedSection() {
                   <p className="mb-2 text-[10px] font-medium uppercase tracking-[0.25em] text-gold-dark">
                     Signature
                   </p>
-                  <h3 className="font-serif text-2xl font-semibold text-espresso">
+                  <h3 className="font-serif text-2xl font-semibold text-foreground">
                     {item.name}
                   </h3>
                   <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted-foreground">

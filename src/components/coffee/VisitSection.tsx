@@ -28,7 +28,7 @@ export function VisitSection() {
           >
             <span className="h-px w-8 bg-gold" />
             <span className="text-xs font-medium uppercase tracking-[0.3em] text-gold-light">
-              05 — Visit Us
+              06 — Visit Us
             </span>
             <span className="h-px w-8 bg-gold" />
           </motion.div>

@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "cafe french toast with syrup and berries",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/459591f7691f.jpg",
+      "caption": "",
+      "source": "INSPIRE • TRAVEL • EAT",
+      "original_width": "768px",
+      "original_height": "1024px"
+    }
+  ]
+}
