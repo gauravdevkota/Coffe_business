@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "vegetable spring rolls crispy plate",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/8af159779aff.jpg",
+      "caption": "",
+      "source": "Khin's Kitchen",
+      "original_width": "1200px",
+      "original_height": "1200px"
+    }
+  ]
+}

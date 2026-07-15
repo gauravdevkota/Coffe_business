@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "Nepali sel roti ring rice bread traditional",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/ebe3c7940e5c.jpg",
+      "caption": "",
+      "source": "YouTube",
+      "original_width": "1280px",
+      "original_height": "720px"
+    }
+  ]
+}

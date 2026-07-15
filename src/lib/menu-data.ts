@@ -70,7 +70,7 @@ export const menuItems: MenuItem[] = [
     price: 60,
     category: "chiya",
     image:
-      "https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/52fa4e3b986f.jpg",
     tags: ["Signature", "Spiced"],
     popular: true,
     calories: 180,
@@ -83,7 +83,7 @@ export const menuItems: MenuItem[] = [
     price: 50,
     category: "chiya",
     image:
-      "https://images.unsplash.com/photo-1565452344518-47faca79dc69?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/7a63b4b52ed7.jpg",
     tags: ["Classic"],
     calories: 160,
   },
@@ -95,7 +95,7 @@ export const menuItems: MenuItem[] = [
     price: 40,
     category: "chiya",
     image:
-      "https://sfile.chatglm.cn/images-ppt/a1c799912c0c.jpg",
+      "https://sfile.chatglm.cn/images-ppt/c0fb3e82a99f.jpg",
     tags: ["No Milk"],
     calories: 5,
   },
@@ -107,7 +107,7 @@ export const menuItems: MenuItem[] = [
     price: 70,
     category: "chiya",
     image:
-      "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/7959108f6af3.jpg",
     tags: ["Herbal", "Caffeine-Free"],
     calories: 30,
   },
@@ -119,7 +119,7 @@ export const menuItems: MenuItem[] = [
     price: 65,
     category: "chiya",
     image:
-      "https://sfile.chatglm.cn/images-ppt/adee1727d6f9.jpg",
+      "https://sfile.chatglm.cn/images-ppt/bcfc2c055ec7.jpg",
     tags: ["Ginger", "Warming"],
     calories: 90,
   },
@@ -131,7 +131,7 @@ export const menuItems: MenuItem[] = [
     price: 75,
     category: "chiya",
     image:
-      "https://images.unsplash.com/photo-1546039907-7fa05f864c02?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/3b788a633fde.jpg",
     tags: ["Caffeine-Free", "Honey"],
     calories: 60,
   },
@@ -145,7 +145,7 @@ export const menuItems: MenuItem[] = [
     price: 90,
     category: "coffee",
     image:
-      "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/13866da42a49.jpg",
     tags: ["Strong", "Nepali Beans"],
     popular: true,
     calories: 5,
@@ -158,7 +158,7 @@ export const menuItems: MenuItem[] = [
     price: 130,
     category: "coffee",
     image:
-      "https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/547fe2eb8e3d.jpg",
     tags: ["Foamy", "Classic"],
     calories: 120,
   },
@@ -170,7 +170,7 @@ export const menuItems: MenuItem[] = [
     price: 140,
     category: "coffee",
     image:
-      "https://images.unsplash.com/photo-1561882468-9110e03e0f78?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/6a04993b143b.jpg",
     tags: ["Creamy"],
     popular: true,
     calories: 190,
@@ -183,7 +183,7 @@ export const menuItems: MenuItem[] = [
     price: 160,
     category: "coffee",
     image:
-      "https://sfile.chatglm.cn/images-ppt/81c3b7122df4.jpg",
+      "https://sfile.chatglm.cn/images-ppt/32583266fcaf.jpeg",
     tags: ["Chocolate", "Sweet"],
     calories: 260,
   },
@@ -197,7 +197,7 @@ export const menuItems: MenuItem[] = [
     price: 90,
     category: "cold-drinks",
     image:
-      "https://sfile.chatglm.cn/images-ppt/863d04610847.jpg",
+      "https://sfile.chatglm.cn/images-ppt/682cbd153147.jpg",
     tags: ["Iced", "Spiced"],
     popular: true,
     calories: 130,
@@ -210,7 +210,7 @@ export const menuItems: MenuItem[] = [
     price: 150,
     category: "cold-drinks",
     image:
-      "https://sfile.chatglm.cn/images-ppt/78fabd05e0cf.jpg",
+      "https://sfile.chatglm.cn/images-ppt/b5e52c7676b6.jpg",
     tags: ["18h Steep", "Smooth"],
     calories: 15,
   },
@@ -222,7 +222,7 @@ export const menuItems: MenuItem[] = [
     price: 170,
     category: "cold-drinks",
     image:
-      "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/cb10a165da5c.jpg",
     tags: ["Blended", "Sweet"],
     popular: true,
     calories: 280,
@@ -235,7 +235,7 @@ export const menuItems: MenuItem[] = [
     price: 120,
     category: "cold-drinks",
     image:
-      "https://sfile.chatglm.cn/images-ppt/4ea30af7790a.jpg",
+      "https://sfile.chatglm.cn/images-ppt/e7b4d7748925.jpg",
     tags: ["Yogurt", "Mango"],
     calories: 220,
   },
@@ -247,7 +247,7 @@ export const menuItems: MenuItem[] = [
     price: 100,
     category: "cold-drinks",
     image:
-      "https://images.unsplash.com/photo-1437418747212-8d9709afab22?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/f5ea5afc9c6e.jpg",
     tags: ["Refreshing", "Mint"],
     calories: 110,
   },
@@ -261,7 +261,7 @@ export const menuItems: MenuItem[] = [
     price: 140,
     category: "savory",
     image:
-      "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/ce2172e0713e.jpg",
     tags: ["Steamed", "Vegetarian"],
     popular: true,
     calories: 320,
@@ -274,7 +274,7 @@ export const menuItems: MenuItem[] = [
     price: 180,
     category: "savory",
     image:
-      "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/8a44ec4d8aa9.jpeg",
     tags: ["Steamed", "Popular"],
     popular: true,
     calories: 380,
@@ -287,7 +287,7 @@ export const menuItems: MenuItem[] = [
     price: 220,
     category: "savory",
     image:
-      "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/303c36dd1d2e.jpg",
     tags: ["Grilled", "Spicy"],
     calories: 420,
   },
@@ -299,7 +299,7 @@ export const menuItems: MenuItem[] = [
     price: 90,
     category: "savory",
     image:
-      "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/e4ee3f51f1cf.jpg",
     tags: ["Crispy", "Vegetarian"],
     calories: 290,
   },
@@ -311,7 +311,7 @@ export const menuItems: MenuItem[] = [
     price: 130,
     category: "savory",
     image:
-      "https://images.unsplash.com/photo-1606728035253-49e8a23146de?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/8af159779aff.jpg",
     tags: ["Crispy"],
     calories: 250,
   },
@@ -323,7 +323,7 @@ export const menuItems: MenuItem[] = [
     price: 250,
     category: "savory",
     image:
-      "https://images.unsplash.com/photo-1528736235302-52922df5c122?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/6bec303e7688.jpg",
     tags: ["Hearty"],
     popular: true,
     calories: 540,
@@ -338,7 +338,7 @@ export const menuItems: MenuItem[] = [
     price: 90,
     category: "breakfast",
     image:
-      "https://sfile.chatglm.cn/images-ppt/e1bf0101a786.jpg",
+      "https://sfile.chatglm.cn/images-ppt/ebe3c7940e5c.jpg",
     tags: ["Traditional", "Rice Bread"],
     popular: true,
     calories: 280,
@@ -351,7 +351,7 @@ export const menuItems: MenuItem[] = [
     price: 200,
     category: "breakfast",
     image:
-      "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/825c844ac455.jpg",
     tags: ["Newari", "Savory"],
     calories: 380,
   },
@@ -363,7 +363,7 @@ export const menuItems: MenuItem[] = [
     price: 110,
     category: "breakfast",
     image:
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/98a473c7a2ef.jpg",
     tags: ["Sweet", "Honey"],
     calories: 310,
   },
@@ -375,7 +375,7 @@ export const menuItems: MenuItem[] = [
     price: 180,
     category: "breakfast",
     image:
-      "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80",
+      "https://sfile.chatglm.cn/images-ppt/68f52c4e1bfa.jpg",
     tags: ["Healthy", "Yogurt"],
     calories: 350,
   },
@@ -387,7 +387,7 @@ export const menuItems: MenuItem[] = [
     price: 280,
     category: "breakfast",
     image:
-      "https://sfile.chatglm.cn/images-ppt/05b883f59307.jpg",
+      "https://sfile.chatglm.cn/images-ppt/61f6c0144189.jpg",
     tags: ["Newari", "Spicy", "Signature"],
     popular: true,
     calories: 450,
@@ -400,7 +400,7 @@ export const menuItems: MenuItem[] = [
     price: 220,
     category: "breakfast",
     image:
-      "https://sfile.chatglm.cn/images-ppt/4cbf50f9a7dc.jpg",
+      "https://sfile.chatglm.cn/images-ppt/388175194fc6.png",
     tags: ["Traditional", "Buckwheat"],
     calories: 410,
   },
@@ -412,7 +412,7 @@ export const menuItems: MenuItem[] = [
     price: 180,
     category: "breakfast",
     image:
-      "https://sfile.chatglm.cn/images-ppt/6a5cd3e0b94d.jpg",
+      "https://sfile.chatglm.cn/images-ppt/7d9fb48308e5.jpg",
     tags: ["Fried", "Classic"],
     calories: 480,
   },
@@ -424,7 +424,7 @@ export const menuItems: MenuItem[] = [
     price: 200,
     category: "breakfast",
     image:
-      "https://sfile.chatglm.cn/images-ppt/081c60ffd3c5.jpg",
+      "https://sfile.chatglm.cn/images-ppt/c51fc472a2b2.jpg",
     tags: ["Stuffed", "Vegetarian"],
     popular: true,
     calories: 420,
@@ -437,7 +437,7 @@ export const menuItems: MenuItem[] = [
     price: 160,
     category: "breakfast",
     image:
-      "https://sfile.chatglm.cn/images-ppt/07752bebbb5d.jpg",
+      "https://sfile.chatglm.cn/images-ppt/528e9275f951.jpg",
     tags: ["Eggs", "Spicy"],
     calories: 360,
   },
@@ -449,7 +449,7 @@ export const menuItems: MenuItem[] = [
     price: 240,
     category: "breakfast",
     image:
-      "https://sfile.chatglm.cn/images-ppt/459591f7691f.jpg",
+      "https://sfile.chatglm.cn/images-ppt/8d64695dd5bd.jpeg",
     tags: ["Sweet", "Cafe Favorite"],
     popular: true,
     calories: 410,
@@ -462,7 +462,7 @@ export const menuItems: MenuItem[] = [
     price: 320,
     category: "breakfast",
     image:
-      "https://sfile.chatglm.cn/images-ppt/5ad6c278e87d.jpg",
+      "https://sfile.chatglm.cn/images-ppt/7909c37c2a2e.jpg",
     tags: ["Premium", "Eggs"],
     calories: 480,
   },
@@ -474,7 +474,7 @@ export const menuItems: MenuItem[] = [
     price: 140,
     category: "breakfast",
     image:
-      "https://sfile.chatglm.cn/images-ppt/2e114b45d5ea.jpg",
+      "https://sfile.chatglm.cn/images-ppt/7bc2d7c4f8b0.jpg",
     tags: ["Light", "Vegetarian"],
     calories: 280,
   },
@@ -486,7 +486,7 @@ export const menuItems: MenuItem[] = [
     price: 300,
     category: "breakfast",
     image:
-      "https://sfile.chatglm.cn/images-ppt/1da8ed16c556.jpg",
+      "https://sfile.chatglm.cn/images-ppt/519103f0a963.jpg",
     tags: ["Platter", "Traditional", "Hearty"],
     popular: true,
     calories: 620,

@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "fresh lemonade with mint in glass",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/f5ea5afc9c6e.jpg",
+      "caption": "",
+      "source": "Zest For Cooking",
+      "original_width": "2353px",
+      "original_height": "2560px"
+    }
+  ]
+}

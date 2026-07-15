@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "cappuccino coffee with latte art foam",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/547fe2eb8e3d.jpg",
+      "caption": "",
+      "source": "Unsplash",
+      "original_width": "3000px",
+      "original_height": "4500px"
+    }
+  ]
+}

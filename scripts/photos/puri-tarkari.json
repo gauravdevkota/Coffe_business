@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "Indian puri fried bread with potato curry",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/7d9fb48308e5.jpg",
+      "caption": "",
+      "source": "Shutterstock",
+      "original_width": "1500px",
+      "original_height": "1100px"
+    }
+  ]
+}

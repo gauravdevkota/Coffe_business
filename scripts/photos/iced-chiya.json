@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "iced milk chai tea in tall glass",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/682cbd153147.jpg",
+      "caption": "",
+      "source": "Modern Farmhouse Eats",
+      "original_width": "800px",
+      "original_height": "1200px"
+    }
+  ]
+}

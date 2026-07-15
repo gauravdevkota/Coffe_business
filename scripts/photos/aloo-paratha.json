@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "aloo paratha stuffed flatbread with butter and curd",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/c51fc472a2b2.jpg",
+      "caption": "",
+      "source": "SpeakingAloud Magazine",
+      "original_width": "1200px",
+      "original_height": "1644px"
+    }
+  ]
+}

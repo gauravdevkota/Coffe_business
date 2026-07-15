@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "lemon honey ginger hot tea in cup",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/3b788a633fde.jpg",
+      "caption": "",
+      "source": "Twinings",
+      "original_width": "1300px",
+      "original_height": "1000px"
+    }
+  ]
+}

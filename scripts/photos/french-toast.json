@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "cinnamon french toast with maple syrup and berries",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/8d64695dd5bd.jpeg",
+      "caption": "",
+      "source": "the CombiSteam Queen",
+      "original_width": "1547px",
+      "original_height": "2000px"
+    }
+  ]
+}

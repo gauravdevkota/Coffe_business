@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "mango lassi yogurt drink in glass",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/e7b4d7748925.jpg",
+      "caption": "",
+      "source": "Everyday Delicious",
+      "original_width": "800px",
+      "original_height": "1200px"
+    }
+  ]
+}

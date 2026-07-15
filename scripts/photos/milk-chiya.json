@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "Indian milk chai tea in glass cup",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/7a63b4b52ed7.jpg",
+      "caption": "",
+      "source": "The Whisk Addict",
+      "original_width": "800px",
+      "original_height": "1200px"
+    }
+  ]
+}

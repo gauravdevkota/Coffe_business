@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "cold brew iced coffee in glass",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/b5e52c7676b6.jpg",
+      "caption": "",
+      "source": "InstaCuppa Store",
+      "original_width": "1200px",
+      "original_height": "805px"
+    }
+  ]
+}

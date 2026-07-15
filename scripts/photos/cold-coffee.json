@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "cold coffee milkshake with whipped cream in glass",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/cb10a165da5c.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "866px",
+      "original_height": "1390px"
+    }
+  ]
+}

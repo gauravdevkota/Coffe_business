@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "ginger tea in glass cup hot drink",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/bcfc2c055ec7.jpg",
+      "caption": "",
+      "source": "Petals and Wings",
+      "original_width": "3508px",
+      "original_height": "2736px"
+    }
+  ]
+}

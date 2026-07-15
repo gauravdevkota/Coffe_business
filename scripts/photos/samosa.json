@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "query": "samosa fried snack with chutney plate",
+  "count": 1,
+  "ranked": false,
+  "results": [
+    {
+      "original_url": "https://sfile.chatglm.cn/images-ppt/e4ee3f51f1cf.jpg",
+      "caption": "",
+      "source": "Dassana's Veg Recipes",
+      "original_width": "1200px",
+      "original_height": "1800px"
+    }
+  ]
+}
