@@ -21,8 +21,8 @@ export function CategoryNav({ active, setActive, query, setQuery }: Props) {
   );
 
   return (
-    <div className="sticky top-16 z-30 -mx-4 mb-10 border-b border-border/60 bg-background/85 px-4 py-4 backdrop-blur-md sm:-mx-6 sm:px-6">
-      <div className="mx-auto flex max-w-6xl flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+    <div className="sticky top-16 z-30 -mx-6 mb-12 border-y border-border/60 bg-cream/90 px-6 py-4 backdrop-blur-md sm:-mx-8 lg:-mx-12 lg:px-12">
+      <div className="mx-auto flex max-w-7xl flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
         <div
           className="flex flex-1 gap-2 overflow-x-auto pb-1 lg:pb-0"
           role="tablist"
@@ -36,10 +36,10 @@ export function CategoryNav({ active, setActive, query, setQuery }: Props) {
               variant={active === p.id ? "default" : "outline"}
               onClick={() => setActive(p.id)}
               className={cn(
-                "shrink-0 rounded-full px-4 py-2 text-sm font-medium transition-colors",
+                "shrink-0 rounded-full px-5 py-2 text-sm font-medium tracking-wide transition-all",
                 active === p.id
-                  ? "bg-primary text-primary-foreground hover:bg-primary/90"
-                  : "bg-transparent text-foreground hover:bg-secondary"
+                  ? "bg-espresso text-cream hover:bg-espresso/90"
+                  : "border-border bg-transparent text-espresso hover:border-gold hover:bg-gold/10 hover:text-espresso"
               )}
             >
               {p.label}
@@ -48,19 +48,19 @@ export function CategoryNav({ active, setActive, query, setQuery }: Props) {
         </div>
 
         <div className="relative w-full lg:w-72">
-          <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+          <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           <Input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search the menu..."
-            className="rounded-full border-border bg-card pl-9 pr-9"
+            className="rounded-full border-border bg-card pl-11 pr-10 focus:border-gold"
             aria-label="Search menu items"
           />
           {query && (
             <button
               type="button"
               onClick={() => setQuery("")}
-              className="absolute right-2.5 top-1/2 -translate-y-1/2 rounded-full p-1 text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+              className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full p-1 text-muted-foreground transition-colors hover:bg-secondary hover:text-espresso"
               aria-label="Clear search"
             >
               <X className="h-3.5 w-3.5" />
